@@ -1,0 +1,25 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+
+# Ignore Sagemaker and other hidden directories
+.sagemaker/
+.ssh/
+
+# Ignore specific files
+ardentblue.docx
+faiss_vs.ipynb
+#faiss_index.index
+#documents.pkl
+
+# Ignore any log files
+*.log
+
+# Ignore VSCode settings
+.vscode/
